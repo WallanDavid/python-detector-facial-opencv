@@ -1,82 +1,60 @@
-# Aplicação de Reconhecimento Facial
+# 🤖 Aplicação de Reconhecimento Facial com OpenCV e Dlib
 
-Esta aplicação Python utiliza a biblioteca OpenCV e dlib para realizar o reconhecimento facial em tempo real a partir da câmera do dispositivo. Você pode capturar fotos, gravar vídeos e ajustar várias configurações de imagem.
+Esta aplicação em Python utiliza as bibliotecas **OpenCV**, **dlib** e **Pillow** para realizar reconhecimento facial em tempo real via webcam. Além da detecção facial, ela oferece funcionalidades como captura de fotos, gravação de vídeos e ajustes de imagem (iluminação, contraste, suavização e modo noturno).
 
-## Requisitos
+## 📦 Requisitos
 
-Certifique-se de ter as seguintes bibliotecas instaladas:
+- Python 3.x
+- opencv-python
+- dlib
+- pillow
 
-- `cv2` (OpenCV)
-- `dlib`
-- `PIL`
+### Instalação das dependências
 
-Você pode instalá-las utilizando o seguinte comando:
-
-```bash
 pip install opencv-python dlib pillow
-Como Executar
-Execute o script face.py para iniciar a aplicação:
 
-bash
-Copy code
+> Obs: A instalação do `dlib` pode exigir build tools no Windows ou `cmake`/`boost` no Linux.
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+git clone https://github.com/WallanDavid/python-detector-facial-opencv.git
+
+2. Acesse a pasta:
+cd python-detector-facial-opencv
+
+3. Execute o script:
 python face.py
-Recursos
-Capturar Foto: Capture uma foto e salve no formato PNG.
-Iniciar/Parar Gravação: Inicie ou pare a gravação de um vídeo.
-Capturar Múltiplas Fotos: Capture várias fotos sequencialmente.
-Ajuste de Iluminação: Ajuste a iluminação da câmera em três níveis.
-Ajuste de Contraste: Ajuste o contraste da câmera em três níveis.
-Filtro de Suavização: Aplique um filtro de suavização à imagem em três níveis.
-Modo Noturno: Ative ou desative o modo noturno.
-Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests.
 
-Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+## 🧠 Funcionalidades
 
-css
-Copy code
+- 📸 **Capturar Foto:** Salva uma imagem da câmera em formato PNG
+- 🎥 **Iniciar/Parar Gravação:** Grava um vídeo em tempo real da webcam
+- 📷 **Captura Múltipla:** Permite registrar várias fotos em sequência
+- 💡 **Ajuste de Iluminação:** Três níveis de luminosidade para o feed da câmera
+- 🌗 **Ajuste de Contraste:** Modifique o contraste da imagem ao vivo
+- 🌫️ **Filtro de Suavização:** Aplica um blur leve para suavizar imperfeições
+- 🌙 **Modo Noturno:** Adapta a imagem para baixa luminosidade
 
-Lembre-se de criar um arquivo `LICENSE` e escolher a licença apropriada para o seu projeto.
+## 🛠️ Sugestões de Melhorias Futuras
 
+- Detecção de múltiplos rostos simultaneamente
+- Identificação facial com base em dataset
+- Exportação de logs ou fotos para banco de dados
+- Integração com reconhecimento de emoções
+- Interface gráfica com PyQt ou Tkinter
 
-User
-Faça em um único bloco de texto
-ChatGPT
-markdown
-Copy code
-# Aplicação de Reconhecimento Facial
+## 🤝 Contribuições
 
-Esta aplicação Python utiliza a biblioteca OpenCV e dlib para realizar o reconhecimento facial em tempo real a partir da câmera do dispositivo. Você pode capturar fotos, gravar vídeos e ajustar várias configurações de imagem.
+Contribuições são bem-vindas!  
+Você pode abrir uma issue ou enviar um pull request com sugestões, melhorias ou correções.
 
-## Requisitos
+## 📜 Licença
 
-Certifique-se de ter as seguintes bibliotecas instaladas:
+Este projeto está licenciado sob os termos da [MIT License](LICENSE).
 
-- `cv2` (OpenCV)
-- `dlib`
-- `PIL`
+## 📫 Contato
 
-Você pode instalá-las utilizando o seguinte comando:
-
-```bash
-pip install opencv-python dlib pillow
-Como Executar
-Execute o script face.py para iniciar a aplicação:
-
-bash
-Copy code
-python face.py
-Recursos
-Capturar Foto: Capture uma foto e salve no formato PNG.
-Iniciar/Parar Gravação: Inicie ou pare a gravação de um vídeo.
-Capturar Múltiplas Fotos: Capture várias fotos sequencialmente.
-Ajuste de Iluminação: Ajuste a iluminação da câmera em três níveis.
-Ajuste de Contraste: Ajuste o contraste da câmera em três níveis.
-Filtro de Suavização: Aplique um filtro de suavização à imagem em três níveis.
-Modo Noturno: Ative ou desative o modo noturno.
-Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests.
-
-Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+**Desenvolvedor:** Wallan David Peixoto  
+**Email:** bobwallan2@gmail.com  
+**LinkedIn:** https://www.linkedin.com/in/wallanpeixoto
